@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DependencyCustomInXamarnFroms.Views.OrientarionPage"
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+             Title="Dependency">
+    
+    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="Center">
+        <Label Text="{Binding Texto}"/>
+        <StackLayout>
+            <Button Text="Orientacion" Command="{Binding OrientationCommand}" android:Button.UseDefaultPadding="true" android:Button.UseDefaultShadow="true" />
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

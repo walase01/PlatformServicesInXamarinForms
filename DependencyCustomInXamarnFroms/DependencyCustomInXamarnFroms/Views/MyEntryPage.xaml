@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:MyEntry="clr-namespace:DependencyCustomInXamarnFroms.Controls"
+             x:Class="DependencyCustomInXamarnFroms.Views.MyEntryPage"
+             Title="Using Entry">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <MyEntry:MyEntry Placeholder="Digite el text" Text="{Binding Text}"/>
+            <Button Text="Digitar" Command="{Binding DigiCommand}"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
