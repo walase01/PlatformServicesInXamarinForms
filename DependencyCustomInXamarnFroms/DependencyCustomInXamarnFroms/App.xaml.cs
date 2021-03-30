@@ -29,7 +29,7 @@ namespace DependencyCustomInXamarnFroms
             containerRegistry.RegisterForNavigation<SpecificTabbedPage>(Config.Tabbed);
             containerRegistry.RegisterForNavigation<OrientarionPage, OrientationViewModel>(Config.Orientation);
             containerRegistry.RegisterForNavigation<MyEntryPage, EntryViewModel>(Config.EntryEffec);
-            containerRegistry.RegisterForNavigation<EffedPage>(Config.Effed);
+            containerRegistry.RegisterForNavigation<EffectPage>(Config.Effed);
         }
     }
 }

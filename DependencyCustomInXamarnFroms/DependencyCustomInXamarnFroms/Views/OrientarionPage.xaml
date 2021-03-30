@@ -6,7 +6,7 @@
              Title="Dependency">
     
     <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="Center">
-        <Label Text="{Binding Texto}"/>
+        <Label Text="{Binding Text}"/>
         <StackLayout>
             <Button Text="Orientacion" Command="{Binding OrientationCommand}" android:Button.UseDefaultPadding="true" android:Button.UseDefaultShadow="true" />
         </StackLayout>

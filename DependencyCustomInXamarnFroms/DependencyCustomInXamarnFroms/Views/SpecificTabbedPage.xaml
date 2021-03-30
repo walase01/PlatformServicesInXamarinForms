@@ -6,13 +6,11 @@
             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
             android:TabbedPage.OffscreenPageLimit="2"
             android:TabbedPage.IsSwipePagingEnabled="true"
-            xmlns:andro="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
-            andro:TabbedPage.ToolbarPlacement="Bottom"
-            andro:TabbedPage.BarItemColor="Black"
-            andro:TabbedPage.BarSelectedItemColor="Red">
-
+            android:TabbedPage.ToolbarPlacement="Bottom"
+            android:TabbedPage.BarItemColor="Black"
+            android:TabbedPage.BarSelectedItemColor="Red">
     
-    <views:EffedPage Title="Effect"/>
+    <views:EffectPage Title="Effect"/>
     <views:MyEntryPage Title="Renderer"/>
     <views:OrientarionPage Title="Dependency"/>
 </TabbedPage>

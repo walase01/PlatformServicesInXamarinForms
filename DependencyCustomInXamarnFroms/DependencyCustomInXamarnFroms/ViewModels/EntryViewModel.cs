@@ -13,9 +13,9 @@ namespace DependencyCustomInXamarnFroms.ViewModels
         public string TextUser { get; set; }
         public EntryViewModel()
         {
-            DigiCommand = new DelegateCommand(() => Cambio());
+            DigiCommand = new DelegateCommand(() => Change());
         }
-        public void Cambio()
+        public void Change()
         {
             if (!String.IsNullOrEmpty(Text))
             {

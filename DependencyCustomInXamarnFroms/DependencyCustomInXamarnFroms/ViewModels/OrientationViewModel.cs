@@ -12,7 +12,7 @@ namespace DependencyCustomInXamarnFroms.ViewModels
     {
         public ICommand OrientationCommand { get; }
 
-        public string Texto { get; set; }
+        public string Text { get; set; }
        
 
         public IDeviceOrientationService orientationService;
@@ -20,7 +20,7 @@ namespace DependencyCustomInXamarnFroms.ViewModels
         {
             orientationService = deviceOrientation;
             OrientationCommand = new DelegateCommand(() => deviceOrientation.GetOrientation());
-            Texto = deviceOrientation.GetOrientation().ToString();
+            Text = deviceOrientation.GetOrientation().ToString();
         }
 
     }

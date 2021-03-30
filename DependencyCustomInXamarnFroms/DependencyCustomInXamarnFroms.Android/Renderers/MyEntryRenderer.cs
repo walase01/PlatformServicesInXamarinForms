@@ -5,11 +5,11 @@ using System.Text;
 using Xamarin.Forms.Platform.Android;
 using Xamarin.Forms;
 using DependencyCustomInXamarnFroms.Controls;
-using DependencyCustomInXamarnFroms.Droid.Renderes;
+using DependencyCustomInXamarnFroms.Droid.Renderers;
 
 [assembly: ExportRenderer(typeof(MyEntry), typeof(MyEntryRenderer))]
 
-namespace DependencyCustomInXamarnFroms.Droid.Renderes
+namespace DependencyCustomInXamarnFroms.Droid.Renderers
 {
     public class MyEntryRenderer : EntryRenderer
     {
